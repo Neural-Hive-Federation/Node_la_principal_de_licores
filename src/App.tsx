@@ -46,7 +46,7 @@ function App() {
   return (
     <div className="min-h-screen bg-[#050505] text-white font-sans selection:bg-orange-500/30">
       
-      {/* 🏗️ HERO SECTION (TECH NOIR) */}
+      {/* HERO SECTION (TECH NOIR) */}
       <section className="relative h-screen w-full flex items-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
@@ -89,7 +89,7 @@ function App() {
         </div>
       </section>
 
-      {/* 📦 EXPANSIÓN: CATÁLOGO DE ÉLITE (NIVEL 2) */}
+      {/* CATÁLOGO DE ÉLITE (NIVEL 2) */}
       <section className="py-32 container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
           <div>
@@ -126,7 +126,7 @@ function App() {
         </div>
       </section>
 
-      {/* 🛠️ EXPANSIÓN: SERVICIOS (NIVEL 2) */}
+      {/* SERVICIOS (NIVEL 2) */}
       <section className="py-32 bg-white/[0.02] border-y border-white/5">
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
@@ -160,7 +160,7 @@ function App() {
         </div>
       </section>
 
-      {/* 📡 NEWSFEED NEURAL (NIVEL 1 RESTAURADO) */}
+      {/* NEWSFEED NEURAL (NIVEL 1 RESTAURADO) */}
       <section className="py-32 container mx-auto px-6">
         <div className="flex items-center gap-4 mb-16">
           <Zap className="text-orange-500 animate-pulse" size={24} />
@@ -172,11 +172,11 @@ function App() {
         </div>
       </section>
 
-      {/* 🤝 PRUEBA SOCIAL & CONTACTO */}
+      {/* CONTACTO & RED SOCIALES */}
       <section className="py-32 bg-black relative overflow-hidden">
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
-            <div className="space-y-8">
+            <div>
               <h2 className="text-4xl font-black uppercase tracking-tighter italic">Búnker de Contacto</h2>
               <div className="space-y-6">
                 <div className="flex items-center gap-4 text-white/60">
@@ -240,7 +240,7 @@ function App() {
         </div>
       </section>
 
-      {/* 💋 ASESOR BEATRIZ (NIVEL 1 RESTAURADO) */}
+      {/* ASESOR BEATRIZ (NIVEL 1 RESTAURADO) */}
       <div className="py-10 container mx-auto px-6 text-center">
         <p className="text-lg font-light italic text-white/80 leading-relaxed mb-10">
           ¿Necesitas ayuda? Estoy aquí para asistirte.
